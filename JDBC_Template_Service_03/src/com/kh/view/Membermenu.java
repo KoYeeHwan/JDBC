@@ -146,7 +146,7 @@ public class Membermenu {
 		System.out.println("변경 할 주소");
 		String address = sc.nextLine();
 		
-		mc.updateMember(userno, userId, userPwd, email, phone, address);
+		mc.updateMember(userId, userPwd, email, phone, address);
 	}
 	
 	//------------------------------ 응답화면 -------------------------

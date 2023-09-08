@@ -143,7 +143,7 @@ public class Member {
 	public void setEnrollDate(Date enrollDate) {
 		this.enrollDate = enrollDate;
 	}
-	
+
 	@Override
 	public String toString() {
 		return  userNo + ", " + userId + "," + userPwd + ", " + userName
